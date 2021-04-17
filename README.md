@@ -69,7 +69,7 @@ class About extends Me
             'infrastructure' => [
                 Git::class,
                 Docker::class,
-                Docker-compose::class,
+                DockerCompose::class,
             ],
             'utils' => [
                 PHPUnit::class,
@@ -105,8 +105,8 @@ class About extends Me
             'infrastructure' => [
                 Git::class,
                 Docker::class,
-                Docker-compose::class,
-                AWS::class,
+                DockerCompose::class,
+                Aws::class,
             ],
             'utils' => [
                 PHPUnit::class,
@@ -143,3 +143,7 @@ class About extends Me
 * [UpInside Productive CSS with SASS](https://www.upinside.com.br/certificados/6260769202010)
 * [UpInside DevTools Essentials](https://www.upinside.com.br/certificados/6260761202102)
 * [HTML5 and CSS3 Essentials](https://www.upinside.com.br/certificados/6260760202010)
+
+
+---------------------
+Inspired by [Ash Baker](https://github.com/ashbakernz/ashbakernz)
