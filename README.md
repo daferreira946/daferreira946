@@ -1,4 +1,4 @@
-# Social
+### Social
 
 * [LinkedIn](https://www.linkedin.com/in/daferreira946/)
 * [Instagram](https://www.instagram.com/daferreira946)
@@ -135,7 +135,7 @@ class About extends Me
     }
 }
 ```
-## Links
+### Links
 * [FACAPE](http://www.facape.br)
 * [Alura Full Certificate](https://cursos.alura.com.br/user/daferreira1996/fullCertificate/0199177d83aab4b8b88edcfa32d7a5d2)
 * [Alura PHP Training](https://cursos.alura.com.br/degree/certificate/4e301603-e19e-4071-b70d-4130d24a86d7)
