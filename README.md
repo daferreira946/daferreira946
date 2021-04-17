@@ -83,8 +83,8 @@ class About extends Me
             ],
         ];
     }
-	
-	public function getPersonalProjectsKnowledge(): array
+    
+    public function getPersonalProjectsKnowledge(): array
     {
         return [
             'management' => [
