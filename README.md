@@ -16,8 +16,8 @@ class About extends Me
     	// interactive links in the end
         return [
             'workplace' => [
-                'company' => 'Incluir Tecnologia',
-                'position' => 'Team Leader',      
+                'company' => 'Mova.vc',
+                'position' => 'Team Leader and Backend Developer',      
             ],
             'degree' => [
                 'computer science' => [
