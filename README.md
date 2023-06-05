@@ -24,8 +24,8 @@ class About extends Me
                     'type' => 'bachelor',
                     'institution' => 'Petrolina College',
 		    'site' => 'http://www.facape.br',
-                    'conclusion' => '2021.1',
-                    'current' => true,
+                    'conclusion' => '2021.2',
+                    'concluded' => false,
                 ],
             ],
             'course' => [
@@ -35,7 +35,7 @@ class About extends Me
                     'full_certificate' => 'https://cursos.alura.com.br/user/daferreira1996/fullCertificate/0199177d83aab4b8b88edcfa32d7a5d2',
                     'completed' => [
                         'PHP training' => 'https://cursos.alura.com.br/degree/certificate/4e301603-e19e-4071-b70d-4130d24a86d7',
-                        ... //54 others courses
+                        ... //others courses
                     ],
                 ],
                 'upinside' => [
@@ -115,7 +115,7 @@ class About extends Me
                 Make::class,
                 GitHub::class,
             ],
-            'frameworks' => [
+            'frameworks/libraries' => [
                 Slim::class,
                 Laravel::class,
                 AdonisJS::class,
