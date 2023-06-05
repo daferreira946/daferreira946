@@ -77,7 +77,7 @@ class About extends Me
                 GitLab::class,
                 Make::class,
             ],
-            'frameworks/libraries' => [
+            'frameworks' => [
                 Slim::class,
                 CompanyPackages::class
             ],
@@ -120,7 +120,8 @@ class About extends Me
                 Laravel::class,
                 AdonisJS::class,
                 Lumen::class,
-                React::class //Stack
+                React::class,
+		Nextjs::class,
             ],
         ];
     }
