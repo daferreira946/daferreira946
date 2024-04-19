@@ -17,15 +17,26 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Mova.vc',
-                'position' => 'Team Leader and Backend Developer',      
+                'position' => 'TechLead and Senior Backend Engineer',      
             ],
             'degree' => [
-                'computer science' => [
+                'computer_science' => [
                     'type' => 'bachelor',
                     'institution' => 'Petrolina College',
 		    'site' => 'http://www.facape.br',
-                    'conclusion' => '2021.2',
-                    'concluded' => false,
+                    'concluded' => true,
+                ],
+		'computer_software_engineering' => [
+                    'type' => 'post degree',
+                    'institution' => 'Descomplica College',
+		    'site' => 'https://descomplica.com.br/pos-graduacao',
+                    'concluded' => true,
+                ],
+		'projects_in_cloud_computing' => [
+                    'type' => 'post degree',
+                    'institution' => 'Descomplica College',
+		    'site' => 'https://descomplica.com.br/pos-graduacao',
+                    'concluded' => true,
                 ],
             ],
             'course' => [
@@ -58,18 +69,23 @@ class About extends Me
         return [
             'management' => [
                 Scrum::class,
-                Trello::class,
+                Jira::class,
             ],
             'languages' => [
                 Php::class,
+		Go::class
             ],
             'databases' => [
                 MySql::class,
+		Redis::class,
+		Elastic::class
             ],
             'infrastructure' => [
                 Git::class,
                 Docker::class,
                 DockerCompose::class,
+		Kubernetes::class,
+		GoogleCloudPlatform::class
             ],
             'utils' => [
                 PHPUnit::class,
@@ -89,15 +105,19 @@ class About extends Me
         return [
             'management' => [
                 Scrum::class,
-                Trello::class,
+                Jira::class,
             ],
             'languages' => [
                 Php::class,
                 Javascript::class, //and Node.js/Typescript.js
-                Python::class
+                Python::class,
+		Rust:class,
+		Go::class
             ],
             'databases' => [
                 MySql::class,
+		Redis::class,
+		Elastic::class,
                 PostgreSQL::class,
                 SQLite::class,
                 MongoDB::class,
@@ -106,6 +126,8 @@ class About extends Me
                 Git::class,
                 Docker::class,
                 DockerCompose::class,
+		Kubernetes::class,
+		GoogleCloudPlatform::class,
                 Aws::class,
             ],
             'utils' => [
@@ -138,6 +160,7 @@ class About extends Me
 ```
 ### Links
 * [FACAPE](http://www.facape.br)
+* [Descomplica](https://descomplica.com.br/pos-graduacao)
 * [Alura Full Certificate](https://cursos.alura.com.br/user/daferreira1996/fullCertificate/0199177d83aab4b8b88edcfa32d7a5d2)
 * [Alura PHP Training](https://cursos.alura.com.br/degree/certificate/4e301603-e19e-4071-b70d-4130d24a86d7)
 * [UpInside Bootstrap Builder](https://www.upinside.com.br/certificados/6260764202102)
